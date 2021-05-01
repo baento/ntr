@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "bank"
+		},
+		{
+			"path": "gateway"
+		},
+		{
+			"path": "merchant"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"prettier.jsxBracketSameLine": true,
+		"prettier.printWidth": 160
+	}
+}
