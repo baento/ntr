@@ -18,7 +18,7 @@ public class TransactionConfig {
   @Bean
   public TransactionClient transactionClient(Jaxb2Marshaller marshaller) {
     TransactionClient client = new TransactionClient();
-    client.setDefaultUri("http://localhost:8090/gateway-0/ws");
+    client.setDefaultUri("http://localhost:8081/ws");
     client.setMarshaller(marshaller);
     client.setUnmarshaller(marshaller);
     return client;

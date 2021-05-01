@@ -18,7 +18,7 @@ import fr.uphf.etu.gateway.wsdl.TransactionResponse;
 @Endpoint
 public class TransactionEndpoint {
     private static final String NAMESPACE_URI = "http://etu.uphf.fr/gateway/wsdl";
-    private static final String BANK_OPERATION_URI = "http://localhost:8080/bank-0/rest/operations";
+    private static final String BANK_OPERATION_URI = "http://localhost:8080/rest/operations";
 
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "transactionRequest")
     @ResponsePayload

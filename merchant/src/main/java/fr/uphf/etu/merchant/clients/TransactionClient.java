@@ -15,7 +15,7 @@ public class TransactionClient extends WebServiceGatewaySupport {
     request.setMerchant("Merchant 1");
 
     TransactionResponse response = (TransactionResponse) getWebServiceTemplate()
-        .marshalSendAndReceive("http://localhost:8090/gateway-0/ws", request);
+        .marshalSendAndReceive("http://localhost:8081/ws", request);
 
     return response;
   }
